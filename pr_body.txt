@@ -1,0 +1,5 @@
+This commit addresses the crash reported in SHAI-13, titled "Exception: Test Jira Crash from Flutter!".
+
+The crash was caused by an explicit `throw Exception('Test Jira Crash from Flutter!')` statement, which was likely introduced for testing crash reporting integrations.
+
+This fix removes the `ElevatedButton` and its associated `onPressed` callback that triggered this intentional exception in `lib/main.dart`. This resolves the reported application crash by eliminating the test-related code that was causing the exception.
