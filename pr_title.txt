@@ -1,0 +1,1 @@
+Fix: Remove intentional crash in Flutter app

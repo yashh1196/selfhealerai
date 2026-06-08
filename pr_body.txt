@@ -1,0 +1,3 @@
+The Jira ticket SHAI-14 reported an exception: "Test Jira Crash from Flutter!". This exception was caused by an explicit `throw Exception('Test Jira Crash from Flutter!');` statement in the `lib/main.dart` file, leading to the application crashing immediately upon startup.
+
+This line was likely introduced for testing purposes (e.g., to confirm crash reporting integration) and has now been removed to restore normal application functionality.
