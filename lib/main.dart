@@ -29,7 +29,7 @@ void main() async {
         }),
       );
     } catch (e) {
-      debugPrint('Failed to trigger Render webhook: $e');
+      debugPrint('Failed to trigger render webhook: $e');
     }
 
     // Forcefully kill the app so it shows "Lost connection" in the console
