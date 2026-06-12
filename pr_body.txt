@@ -1,0 +1,3 @@
+The Jira ticket SHAI-35 describes a crash with the title `Exception: Test Jira Crash from Flutter!`. This exception message strongly indicates that the crash was an intentional mechanism, likely implemented for testing crash reporting tools or error handling.
+
+This fix addresses the reported crash by removing the specific code responsible for throwing the `Exception('Test Jira Crash from Flutter!')`. The application will no longer intentionally crash due to this specific exception, ensuring stability in production environments.
