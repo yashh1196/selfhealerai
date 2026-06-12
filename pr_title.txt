@@ -1,0 +1,1 @@
+Fix SHAI-35: Remove intentional crash mechanism
